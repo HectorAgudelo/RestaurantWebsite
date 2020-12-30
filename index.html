@@ -25,45 +25,163 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-fixed-top" role="navigation">
+    <!-- Nav bar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-default navbar-fixed-top"
+      role="navigation"
+    >
       <div class="container">
         <div class="row">
           <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">Restaurant</a>
+            <a class="navactive navbar-brand" href="index.html">Restaurant</a>
             <button
-              class="navbar-toggler"
+              class="navbar-toggle collapsed"
               type="button"
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
             </button>
           </div>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+            <ul class="nav navbar-nav main-nav clear navbar-right">
               <li class="nav-item">
-                <a class="nav-link" href="#">about</a>
+                <a class="color_animation" href="#">about</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">menu</a>
+                <a class="color_animation" href="#">menu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">drinks</a>
+                <a class="color_animation" href="#">drinks</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">reservation</a>
+                <a class="color_animation" href="#">reservation</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">contact us</a>
+                <a class="color_animation" href="#">contact us</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
     </nav>
+    <!-- Restaurant title, subtitle -->
+    <div id="top" class="starter_container bg">
+      <div class="follow_container">
+        <div class="col-md-6 col-md-offset-3">
+          <h2 class="top-title">Restaurant</h2>
+          <h2 class="white second-title">" Best in the city "</h2>
+          <hr />
+        </div>
+      </div>
+    </div>
+    <!-- About Us -->
+    <section id="story" class="description_content">
+      <div class="text-content container">
+        <div class="col-md-6">
+          <h1>About us</h1>
+          <div class="fa fa-cutlery fa-2x"></div>
+          <p class="desc-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+        </div>
+        <hr />
+        <div class="col-md-6">
+          <div class="img-section">
+            <img src="images/kabob.jpg" width="250" height="220" />
+            <img src="images/limes.jpg" width="250" height="220" />
+            <div class="img-section-space"></div>
+            <img src="images/radish.jpg" width="250" height="220" />
+            <img src="images/corn.jpg" width="250" height="220" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Menu -->
+    <section id="pricing" class="description_content">
+      <div class="pricing background_content">
+        <h1><span>Affordable</span> pricing</h1>
+      </div>
+      <div class="text-content container">
+        <div class="container">
+          <div class="row">
+            <div id="w">
+              <ul id="filter-list" class="clearfix">
+                <li class="filter" data-filter="all">All</li>
+                <li class="filter" data-filter="appetizers">Appetizers</li>
+                <li class="filter" data-filter="main course">Main Course</li>
+                <li class="filter" data-filter="desert">Desert</li>
+                <li class="filter" data-filter="drinks">Drinks</li>
+              </ul>
+              <!-- @end #filter-list -->
+              <ul id="portfolio">
+                <li class="item appetizers">
+                  <img src="images/food_icon01.jpg" alt="Food" />
+                  <h2 class="white">$20</h2>
+                </li>
+                <li class="item main course">
+                  <img src="images/food_icon02.jpg" alt="Food" />
+                  <h2 class="white">$20</h2>
+                </li>
+                <li class="item main course">
+                  <img src="images/food_icon03.jpg" alt="Food" />
+                  <h2 class="white">$18</h2>
+                </li>
+                <li class="item appetizers">
+                  <img src="images/food_icon04.jpg" alt="Food" />
+                  <h2 class="white">$15</h2>
+                </li>
+                <li class="item appetizers">
+                  <img src="images/food_icon05.jpg" alt="Food" />
+                  <h2 class="white">$20</h2>
+                </li>
+                <li class="item main course">
+                  <img src="images/food_icon06.jpg" alt="Food" />
+                  <h2 class="white">$22</h2>
+                </li>
+                <li class="item desert">
+                  <img src="images/food_icon07.jpg" alt="Food" />
+                  <h2 class="white">$32</h2>
+                </li>
+                <li class="item desert">
+                  <img src="images/food_icon08.jpg" alt="Food" />
+                  <h2 class="white">$38</h2>
+                </li>
+                <li class="item desert">
+                  <img src="images/food_icon08.jpg" alt="Food" />
+                  <h2 class="white">$38</h2>
+                </li>
+                <li class="item drinks">
+                  <img src="images/food_icon08.jpg" alt="Food" />
+                  <h2 class="white">$38</h2>
+                </li>
+                <li class="item drinks">
+                  <img src="images/food_icon08.jpg" alt="Food" />
+                  <h2 class="white">$38</h2>
+                </li>
+                <li class="item drinks">
+                  <img src="images/food_icon08.jpg" alt="Food" />
+                  <h2 class="white">$38</h2>
+                </li>
+              </ul>
+              <!-- @end #portfolio -->
+            </div>
+            <!-- @end #w -->
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>

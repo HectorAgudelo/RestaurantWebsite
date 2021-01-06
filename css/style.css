@@ -14,7 +14,7 @@ html {
     NAV
 =========================*/
 div#navbarSupportedContent {
-  height: 90px;
+  height: 220px;
   overflow: auto;
   text-align: center;
   text-decoration: none !important;
@@ -41,7 +41,7 @@ li {
 } 
 .nav-link {
   text-decoration: initial;
-  word-spacing: 20px;
+  word-spacing: 0px;
   margin-right: 0px;
   margin-left: 0px !important;
   color: white !important;
@@ -61,4 +61,9 @@ ul{
 }
 
 
+@media (min-Width: 991px){
+  .navbar{
+    height: 80px;
+  }
+}
 

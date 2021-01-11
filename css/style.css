@@ -10,247 +10,150 @@ html {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+/* *,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+} */
+
+
 /*========================
     NAV
 =========================*/
-div#navbarSupportedContent {
-  height: 368px;
-  overflow: hidden;
+.container {
+  text-align: center;
+  
+}
+
+#navbarSupportedContent {
+  height: 220px;
+  overflow: auto;
   text-align: center;
   text-decoration: none !important;
+  padding-left: 200px;
 }
 .navbar-brand {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 34px !important;
   text-decoration: none;
-  color: white !important;
+  color: goldenrod !important;
+  padding-left: 50px;
+  
 }
 
 nav {
-  background: #1E1E1E !important;
+  background: rgb(63, 44, 63) !important;
   font-size: 18px;
-  color: white !important;
+  color: goldenrod !important;
 }
 
 li {
-  color: white !important;
-  /*padding-left: 10px;*/
+  color: goldenrod !important;
+  /* padding-left: 10px; */
   word-spacing: 5px !important;
 }
-
-
-
-
-/*========================
-MEDIA QUERIES MOBILE
-=========================*/
-
-@media (max-width: 660px) {
-  .top-title {
-      font-size: 67px;
-  }
-
-  .background_content h1 {
-      width: 80%;
-      font-size: 2.5em;
-  }
+.color_animation {
+  text-decoration: initial;
+  word-spacing: 5px;
+  margin-right: 10px;
+  margin-left: 10px !important;
+  color:goldenrod !important;
+  -webkit-transition: color 0.3s ease-out;
+  -moz-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  -ms-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
 }
-/*========================
-MEDIA QUERIES TABLET
-=========================*/
 
+.color_animation:hover {
+  color: brown !important;
+}
+
+ul {
+  margin-left: 40px;
+}
+
+
+
+
+
+/*========================
+    TITLE
+=========================*/
+.follow_container {
+  width: 100%;
+  position: absolute;
+  top: 35%;
+  text-align: center;
+}
+
+.top-title {
+  color: goldenrod;
+  font-family: "Playball", cursive;
+  font-size: 120px;
+  font-weight: 400;
+}
+
+.second-title {
+  color: goldenrod;
+  font-weight: lighter;
+  font-size: 30px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+#top {
+  background-image: url("../images/restaurantImg.png");
+  margin-top: -21px;
+  padding: 0;
+  min-width: 100%;
+  height: 100%;
+  background-size: cover;
+    text-align: center;
+    background-position: center;
+}
 
 @media (min-width: 660px) {
-
-  .starter_container {
-      height: 100%;
+  .navbar {
+    height: 80px;
   }
 
-  /*========================
-  NAV
-  =========================*/
-  .navbar-default {
-      height: 70px;
-      padding-top: 10px;
+  #navbarSupportedContent {
+    height: 65px;
+    overflow: auto;
+    text-align: center;
+    text-decoration: none !important;
   }
-
-  nav li {
-      padding-right: -15px;
+  
+}
+@media (max-width: 660px) {
+ 
+  #navbarSupportedContent {
+    height: 135px;
+    overflow: auto;
+    text-align: center;
+    padding-left: 0px;
+    text-decoration: none !important;
   }
-
-  .navbar-brand {
-      font-family: 'Pacifico', cursive;
-      font-size: 34px !important;
-      text-decoration: none;
-      color: white !important;
-  }
-
-  nav {
-      position: fixed;
-      display: block;
-      position: fixed;
-      width: 100%;
-      height: 55px;
-      z-index: 100;
-      margin: 0;
-      padding: 0;
-      background-color: #1e1e1e;
-      text-align: center;
-  }
-
-  .main-nav {
-      padding: 0;
-      margin: 18px auto 0 auto;
-  }
-
-  .main-nav li {
-      display: inline-block;
-      list-style: none;
-      margin: 0 29px 0 29px;
-  }
-
-  .main-nav a {
-      font-size: 0.75000em;
-      font-weight: 700;
-      /* letter-spacing: 0.250em; */
-      text-decoration: none;
-      color: #fff;
-      display: block;
-      text-align: center;
-      padding: 2px 0;
-      transition: color 0.3s ease-in-out;
-  }
-
-  .main-nav a:hover {
-      color: #6c8f34;
-  }
-
-  /*========================
-  DESCRIPTION BODY CONTENT
-  =========================*/
-
-  h1 {
-      font-size: 32px;
-      font-weight: 900;
-      width: 280px;
-      letter-spacing: 0.040em;
-      border: 1px solid #2f2e2f;
-  }
-
-  /*========================
-  IMAGE INTRO BANNER CONTENT
-  =========================*/
-
-  .background_content {
-      position: relative;
-      top: 0px;
-      width: 100%;
-      height: 570px;
-      background-color: white;
-      margin: 0 auto 0 auto;
-      z-index: 98;
-      text-align: center;
-  }
-
-  .background_content h1 {
-      font-size: 4.5em;
-      position: relative;
-      top: 41%;
-      width: 100%;
-      color: white;
-      padding: 0;
-      border: 0;
-      display: inline-block;
-  }
-
-  .background_content h1 span {
-      color: white;
-      padding: 0;
-      border-bottom: 10px solid #fff;
-  }
+ 
 }
 
-/*END OF MEDIA QUERY*/
-
-/*========================
-MEDIA QUERIE DESKTOP
-=========================*/
-
-@media (min-width: 1100px) {
-
-  .starter_container {
-      background-attachment: fixed;
+@media (max-width: 992px) {
+  .navbar-brand {
+    padding: 20px;
+  }
+  .color_animation {
+    margin: 15px;
   }
 
-
-  /*========================
-  BACKGROUND CONTENT
-  =========================*/
-
-
-  .background_content h1 {
-      font-size: 5em;
-      position: relative;
-      top: 41%;
-      width: 100%;
-      color: white;
-      padding: 0;
-      border: 0;
-      display: inline-block;
-      margin-top: 20px;
+  #navbarSupportedContent {
+    height: 145px;
+    overflow: auto;
+    text-align: center;
+    padding-left: 0px;
+    background-color: rgb(63, 45, 63);
+    text-decoration: none !important;
   }
-
-  .background_content h1 span {
-      color: white;
-      padding: 0;
-      border-bottom: 12px solid #fff;
-  }
-
-  /*========================
-  DESCRIPTION BODY CONTENT
-  =========================*/
-
-  .margin-right {
-      margin-right: 5%;
-  }
-
-  .margin-left {
-      margin-left: 5%;
-  }
-
-  .background_content:nth-of-type(2),
-  .background_content:nth-of-type(4) {
-      background-attachment: fixed;
-  }
-
-  /* ========================
-  FIRST FOOTER CONTENT
-  =========================*/
-
-  /* .social_heading {
-      font-size: 33px;
-      margin: 50px 0 0 0;
-  }
-
-  .come_in .social_info a {
-      font-size: 24.93px;
-      display: inline-block;
-      margin: 0 auto;
-      width: 565px;
-  }
-
-  .come_in .social_info {
-      margin-bottom: 25px;
-  }
-
-  .or_call .social_info a {
-      font-size: 24.93px;
-      display: inline-block;
-      margin: 0 auto;
-      width: auto;
-  }
-
-  .social_icons li a {
-      font-size: 30px;
-  } */
 }

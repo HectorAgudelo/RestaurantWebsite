@@ -130,6 +130,7 @@ li {
   text-align: center;
 }
 
+
 .text-content.container {
   margin-top: 65px;
   margin-bottom: -51px;
@@ -406,6 +407,97 @@ p.desc-text {
   opacity: 0.9;
 }
 
+/*========================
+  Social
+=========================*/
+
+.container.row{
+  margin: 0% 12% 0% ;
+}
+
+section.social_connect {
+  background-color: black;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.social_heading {
+  font-size: 33px;
+  margin: 50px 0 0 0;
+}
+
+.social_info a {
+  font-size: 24.93px;
+}
+
+.social_icons li a {
+  font-size: 30px;
+}
+
+.social_info a {
+  display: inline-block;
+  margin: 0 auto;
+  width: 325px;
+}
+
+.social_heading,
+.social_info {
+  display: block;
+}
+.social_info a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  line-height: 1.4em;
+  color: #fff;
+  display: inline-block;
+  margin: 0 auto;
+  width: 210px;
+}
+.social_heading {
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  color: #63c85d;
+  text-align: center;
+  margin: 40px 0 0 0;
+}
+
+.social_icons li a {
+  font-size: 30px;
+}
+
+.social_info,
+.social_icons {
+  margin: 18px 0 50px 0;
+}
+
+.social_icons {
+  padding: 0;
+}
+
+.social_icons li {
+  list-style: none;
+  display: inline-block;
+  padding: none;
+}
+
+.social_icons li:nth-child(1),
+.social_icons li:nth-child(2),
+.social_icons li:nth-child(3) {
+  margin: 0 50px 0 0;
+}
+
+.social_icons li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.social_icons li a:hover {
+  color: #6c8f34;
+}
 
 
 @media (min-width: 991px) {

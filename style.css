@@ -84,7 +84,7 @@ li {
     TITLE
 =========================*/
 .starter_container {
-  background: url("../images/restaurantImg.png");
+  background: url("./images/restaurantImg.png");
   margin-top: -21px;
   padding: 0;
   min-width: 100%;
@@ -172,7 +172,7 @@ p.desc-text {
 }
 
 .pricing.background_content {
-  background: url("../images/pricing.jpg") no-repeat center center;
+  background: url("./images/pricing.jpg") no-repeat center center;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -287,7 +287,7 @@ p.desc-text {
 =========================*/
 
 .drinks.background_content {
-  background: url("../images/BAR.jpg") no-repeat center center;
+  background: url("./images/BAR.jpg") no-repeat center center;
   background-size:cover;
   background-position: center;
   background-attachment: fixed;
@@ -304,7 +304,7 @@ p.desc-text {
 }
 
 .featured.background_content {
-  background: url("../images/reservation-seat.jpg") no-repeat center center;
+  background: url("./images/reservation-seat.jpg") no-repeat center center;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
